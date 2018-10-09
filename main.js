@@ -95,7 +95,7 @@ function mostrarGanadores(){
     if(arregloGanadores.length > -1)
     {
         for (i = 0; i < arregloGanadores.length; i++) {
-            ganadoresPuntajes += arregloDeOperaciones[i]            
+            ganadoresPuntajes += arregloGanadores[i]            
         }
         document.getElementById("staticGanadores").value = ganadoresPuntajes
     }
